@@ -1,0 +1,69 @@
+<resources>
+    <!--Main Activity-->
+    <string name="app_name">CitizenshipQuiz</string>
+    <string name="welcome_text">Citizenship</string>
+    <string name="welcome_quiz">Quiz</string>
+    <string name="enter">Enter</string>
+    <string name="emptyName">Please enter your Name</string>
+
+
+    <!--Activity Questions-->
+
+    <!--First Question-->
+    <string name="question1">How many states there are in America?</string>
+    <string name="question1_a">48</string>
+    <string name="question1_b">58</string>
+    <string name="question1_c">50</string>
+    <string name="question1_d">51</string>
+
+    <!--Second Question-->
+    <string name="question2">Which State of USA was once part of Mexico?</string>
+    <string name="question2_a">California</string>
+    <string name="question2_b">New York</string>
+    <string name="question2_c">Texas</string>
+    <string name="question2_d">Florida</string>
+
+    <!--Third Question-->
+    <string name="question3">Who is the third President of USA?</string>
+    <string name="question3_a">Abraham Linkoln</string>
+    <string name="question3_b">George Washington</string>
+    <string name="question3_c">Thomas Jefferson</string>
+    <string name="question3_d">John Adams</string>
+
+    <!--Forth Question-->
+    <string name="question4">Albany is the capital of which State?</string>
+    <string name="question4_a">Maryland</string>
+    <string name="question4_b">New York</string>
+    <string name="question4_c">Arizona</string>
+    <string name="question4_d">Colorado</string>
+    <!--Fifth Question-->
+    <string name="question5">What is true about USA? (Select all that apply)</string>
+    <string name="question5_a">Harvard, the First University in USA</string>
+    <string name="question5_b">The United States Debt Per Person Is $1,000</string>
+    <string name="question5_c">The Deadliest Job In the Country Is: President</string>
+    <string name="question5_d">Trump Created the Secret Service</string>
+
+    <!--Sixth Question-->
+    <string name="question6">Name of the actual President?</string>
+    <string name="writeName">Name</string>
+    <string name="EditName">Name</string>
+
+    <!--Seventh Question-->
+    <string name="question7">How many U.S. Senators are there?</string>
+    <string name="question7_a">50</string>
+    <string name="question7_b">36</string>
+    <string name="question7_c">100</string>
+    <string name="question7_d">400</string>
+
+    <!--Activity other Strings-->
+    <string name="submit">Submit</string>
+    <string name="noAnswer">Please answer the questions!</string>
+
+
+    <!--Activity Results. Final score-->
+    <string name="congrats">Congratulations! %s</string>
+    <string name="score_text">Your final score is: </string>
+    <string name="score_number">X</string>
+    <string name="out_of">You got %d out of %d questions right</string>
+    <string name="button_start_new">New Game</string>
+</resources>

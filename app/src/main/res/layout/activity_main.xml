@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usa_quiz"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/flag"
+        style="@style/flag"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/textInfo"
+        android:layout_below="@id/flag"
+        android:text="@string/welcome_text" />
+
+    <TextView
+        android:id="@+id/info"
+        style="@style/textInfo"
+        android:layout_below="@id/welcome"
+        android:text="@string/welcome_quiz" />
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/headname"
+        android:layout_below="@id/info" />
+
+    <Button
+        style="@style/enter"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/enter_button"
+        android:onClick="start"
+        android:text="@string/enter" />
+
+</RelativeLayout>

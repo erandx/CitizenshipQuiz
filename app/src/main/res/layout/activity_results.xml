@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usa_quiz">
+
+
+    <TextView
+        android:id="@+id/textCongrats"
+        style="@style/congrats"
+        android:gravity="center_horizontal"
+        android:text="@string/congrats" />
+
+
+    <TextView
+        android:id="@+id/finalScore"
+        style="@style/congrats_score"
+        android:layout_below="@id/textCongrats"
+        android:text="@string/score_text" />
+
+    <TextView
+        android:id="@+id/theScore"
+        style="@style/congrats_score"
+        android:layout_below="@id/finalScore"
+        android:text="@string/score_number" />
+
+    <TextView
+        android:id="@+id/outOf"
+        style="@style/congrats_score"
+        android:layout_below="@id/theScore"
+        android:text="@string/out_of" />
+
+    <Button
+        android:id="@+id/start"
+        style="@style/resultButton"
+        android:layout_below="@id/outOf"
+        android:onClick="startNewGame"
+        android:text="@string/button_start_new" />
+
+
+</RelativeLayout>
